@@ -19,4 +19,4 @@ if code in city_codes:
 #     print(f"Стоимость {duration} минут {city_info['city']} ({code}): {cost} руб.")
 
 else:
-    print("Неверное значение)
+    print("Неверное значение")

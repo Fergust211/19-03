@@ -6,9 +6,6 @@ while True:
     print(f"Сумма чисел: {result}")
 
     program_end = input("Завершить программу? Если да, введите (Y): ")
-    if program_end == "y":
-        print("Программа завершена.")
-        break
-    elif program_end == "Y":
+    if "y" == program_end or "Y" == program_end :
         print("Программа завершена.")
         break
